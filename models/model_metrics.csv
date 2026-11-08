@@ -1,0 +1,7 @@
+split,model,MAE_eur,WAPE_percent,MAPE_percent,R2,median_absolute_percentage_error
+validation,Engineering_baseline,271.59,7.41,6.72,0.9779,5.17
+validation,Direct_ML,590.67,16.11,14.22,0.9236,11.33
+validation,Physics_plus_ML,249.23,6.8,6.39,0.9817,4.93
+test,Engineering_baseline,259.32,7.19,6.67,0.9803,5.13
+test,Direct_ML,564.0,15.63,14.1,0.9302,11.12
+test,Physics_plus_ML,241.84,6.7,6.35,0.9836,4.86

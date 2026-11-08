@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1019" />
+  <meta name="description" content="AEROCOST AI - aerospace manufacturing cost intelligence. Independent synthetic-data engineering prototype." />
+  <title>AEROCOST AI 2.0 - Advanced Engineering Workbench</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark"><svg viewBox="0 0 36 36" fill="none"><path d="M5 25 18 6l13 19H5Z" stroke="currentColor" stroke-width="2"/><path d="m11 25 7-10 7 10M18 6v10" stroke="currentColor" stroke-width="2"/></svg></div><div><strong>AEROCOST <em>AI</em></strong><small>ENGINEERING INTELLIGENCE</small></div></div>
+    <div class="nav-caption">WORKSPACE</div>
+    <nav id="nav">
+      <button class="nav-link active" data-view="overview"><span class="nav-symbol">◫</span> Overview <span class="nav-arrow">›</span></button>
+      <button class="nav-link" data-view="quote"><span class="nav-symbol">⌘</span> Quote studio <span class="nav-arrow">›</span></button>
+      <button class="nav-link" data-view="process"><span class="nav-symbol">⚙</span> Process explorer <span class="nav-arrow">›</span></button>
+      <button class="nav-link" data-view="analytics"><span class="nav-symbol">▥</span> Model analytics <span class="nav-arrow">›</span></button>
+      <button class="nav-link" data-view="scenarios"><span class="nav-symbol">⇆</span> Scenario lab <span class="count-chip" id="savedCount">0</span></button>
+    </nav>
+    <div class="nav-caption next-caption">PROJECT</div>
+    <nav><button class="nav-link" data-view="method"><span class="nav-symbol">◇</span> Methodology <span class="nav-arrow">›</span></button></nav>
+    <div class="sidebar-bottom">
+      <div class="engine-status"><span class="status-led"></span><span><b id="engineText">Loading engine</b><small id="engineDetail">Connecting to data...</small></span></div>
+      <div class="sidebar-footer">INDEPENDENT RESEARCH PROTOTYPE<br><span>Not affiliated with Collins Aerospace</span></div>
+    </div>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar">
+      <div class="topbar-left"><button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button><span class="breadcrumb">WORKSPACE <span>/</span> <strong id="crumbCurrent">OVERVIEW</strong></span></div>
+      <div class="topbar-right"><div class="search-wrap"><span>⌕</span><input id="globalSearch" placeholder="Search quote ID..." aria-label="Search quote ID"/><kbd>↵</kbd></div><span class="top-badge"><span class="status-led"></span><span id="topMode">Loading</span></span><button class="avatar" title="Independent engineering prototype">AI</button></div>
+    </header>
+    <main id="screen" class="screen"></main>
+    <footer class="footer"><span>© AEROCOST AI · Synthetic aerospace costing research</span><span>Engineering assumptions are illustrative. Review all quotations before any real-world use.</span></footer>
+  </div>
+</div>
+<div class="toast-container" id="toasts"></div>
+<div class="modal-backdrop hidden" id="modal"><div class="modal-card"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div id="modalBody"></div></div></div>
+<script src="assets/offline_data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

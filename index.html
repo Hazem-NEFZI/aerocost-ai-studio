@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a1525"><meta name="description" content="AEROCOST AI 2.0 — illustrative aerospace machining-cost and route analysis studio.">
+<title>AEROCOST AI 2.0 | Engineering Cost Studio</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style-v2.css">
+</head><body>
+<div class="app-shell">
+<aside class="sidebar" id="side">
+ <div class="brand"><div class="brand-icon"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 35 24 7l17 28H7Z" stroke="currentColor" stroke-width="2.3"/><path d="M17 35 24 22l7 13" stroke="currentColor" stroke-width="2.3"/><circle cx="24" cy="7" r="2.5" fill="currentColor"/></svg></div><div><div class="brand-title">AEROCOST <em>AI</em></div><div class="brand-sub">ENGINEERING INTELLIGENCE</div></div></div>
+ <div class="side-heading">WORKSPACE</div>
+ <nav id="nav" aria-label="Primary"><button data-page="overview" class="nav-btn active"><span class="nav-icon">▦</span>Overview</button><button data-page="quote" class="nav-btn"><span class="nav-icon">▣</span>3D Quote Studio</button><button data-page="routes" class="nav-btn"><span class="nav-icon">⇄</span>Route Optimizer</button><button data-page="portfolio" class="nav-btn"><span class="nav-icon">◈</span>Scenario Portfolio <span id="scenarioCount" class="nav-count">0</span></button></nav>
+ <div class="side-heading">ENGINEERING</div><nav><button data-page="research" class="nav-btn"><span class="nav-icon">▤</span>Model & Methods</button><a class="nav-btn" href="legacy/index.html" target="_blank" rel="noopener"><span class="nav-icon">↗</span>V1 Trained ML Demo <span class="nav-small">↗</span></a></nav>
+ <div class="side-spacer"></div><div class="side-info"><span class="live-dot"></span><div><strong>LOCAL · PRIVATE</strong><span>No cloud connection required</span></div></div><div class="side-footer">INDEPENDENT ENGINEERING RESEARCH<br>Not affiliated with Collins Aerospace<br><span>Synthetic assumptions. No commercial quotations.</span></div>
+</aside>
+<div class="main-area"><header class="topbar"><div class="top-left"><button class="menu-button" id="menu" aria-label="Toggle navigation">☰</button><div class="breadcrumbs">AEROCOST / <strong id="breadcrumb">OVERVIEW</strong></div></div><div class="top-right"><span class="top-chip">◉ SYNTHETIC ENGINEERING MODEL</span><button class="btn btn-outline btn-sm" id="guidedBtn">▶ Guided Demo</button><button class="btn btn-gold btn-sm" id="exportBtn">↧ Export quote</button></div></header>
+<main id="app" aria-live="polite"></main><footer class="footer"><span>AEROCOST AI 2.0 · Conceptual manufacturing engineering demonstrator</span><span>Estimates are illustrative, not procurement or quality approvals.</span></footer></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="guided" class="guided hidden" role="dialog" aria-modal="true" aria-label="Guided demonstration"><div class="tour-card"><div class="tour-kicker">PRESENTATION MODE <span id="tourStep">01 / 05</span></div><h2 id="tourTitle"></h2><p id="tourText"></p><div class="tour-actions"><button class="btn btn-outline" id="tourExit">Exit</button><div><button class="btn btn-outline" id="tourPrev">← Back</button><button class="btn btn-gold" id="tourNext">Next →</button></div></div></div></div>
+<script src="assets/engineering-v2.js"></script><script src="assets/app-v2.js"></script></body></html>

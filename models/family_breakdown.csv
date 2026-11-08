@@ -1,0 +1,11 @@
+family,n,MAE_eur,WAPE_percent,MAPE_percent,R2,median_absolute_percentage_error
+Blade_Root_Fitting,746,119.42,7.02,6.46,0.9618,4.78
+Rotor_Coupling,762,369.26,6.99,6.42,0.9657,4.88
+Gearbox_Housing,934,649.37,6.77,6.43,0.9683,4.83
+Actuator_Bracket,988,163.77,6.7,6.41,0.976,5.03
+Transmission_Shaft,896,199.41,6.7,6.53,0.9724,5.14
+Cockpit_Lever_Part,649,37.59,6.61,6.42,0.9488,5.21
+Propeller_Hub,1134,413.27,6.59,6.32,0.984,4.95
+Bearing_Housing,896,162.18,6.53,6.28,0.9696,4.85
+Structural_Bracket,1087,149.97,6.5,6.21,0.9829,4.65
+Pitch_Control_Link,908,63.58,6.21,6.12,0.9482,4.6

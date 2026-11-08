@@ -1,0 +1,10 @@
+{
+  "selected_model_from_validation": "Physics_plus_ML",
+  "selection_metric": "lowest validation WAPE",
+  "validation_abs_percentage_error_90th_percentile": 13.23,
+  "anomaly_audit_validation_error_threshold_percent": 17.85,
+  "test_size": 9000,
+  "dataset_type": "fully_synthetic",
+  "random_seed": 42,
+  "important_warning": "Model fits generator-created costs. Synthetic test accuracy is not evidence of real-world cost prediction accuracy."
+}
